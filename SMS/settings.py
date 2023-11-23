@@ -117,7 +117,7 @@ ASGI_APPLICATION = "SMS.asgi.application"
 # so consider using postgresql instead
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "ENGINE": "django.db.backends.postgresql",
         "NAME": env("DB_NAME"),
         "USER": env("DB_USER"),
         "PASSWORD": env("DB_PASSWORD"),
